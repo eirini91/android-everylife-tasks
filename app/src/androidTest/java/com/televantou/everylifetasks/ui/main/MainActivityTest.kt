@@ -54,6 +54,7 @@ class MainActivityTest {
     @Test
     fun mainActivityTest() {
 
+
         onView(isRoot()).perform(waitForView("Empty the bin and take the rubbish and recycling to the communal rubbish bins that are on the lower ground floor of the building", 2000))
 
         val textView = onView(
@@ -81,7 +82,7 @@ class MainActivityTest {
         onView(withText("Take the rubbish out")).check(doesNotExist())
         onView(withText("Could not connect to internet")).check(matches(not(isDisplayed())))
 
-
+        recyclerView.perform(actionOnItemAtPosition<ViewHolder>(0, click()))
     }
 
     @Test

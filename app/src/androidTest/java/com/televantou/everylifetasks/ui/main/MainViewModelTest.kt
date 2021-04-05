@@ -113,7 +113,7 @@ class MainViewModelTest {
         Assert.assertEquals(mainViewModel.loading.get(), false)
     }
 
-    
+
     //This is just an example of an errored response. In a real project we should have covered all main HTTP errors
     // along with use case scenarios for when we don't have any data to begin with(the UI doesn't show the dialog on that case. It just updates the error string)
     @Test
