@@ -10,7 +10,7 @@ import androidx.lifecycle.viewModelScope
 import com.televantou.everylifetasks.data.menuItems.MenuItem
 import com.televantou.everylifetasks.data.tasks.Task
 import com.televantou.everylifetasks.data.tasks.TaskRepository
-import com.televantou.everylifetasks.data.yearItem.repo.MenuItemRepository
+import com.televantou.everylifetasks.data.menuItems.MenuItemRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

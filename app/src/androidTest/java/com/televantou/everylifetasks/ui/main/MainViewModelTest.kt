@@ -7,7 +7,7 @@ import com.televantou.everylifetasks.data.menuItems.MenuItem
 import com.televantou.everylifetasks.data.tasks.Task
 import com.televantou.everylifetasks.data.tasks.TaskDao
 import com.televantou.everylifetasks.data.tasks.TaskRepository
-import com.televantou.everylifetasks.data.yearItem.repo.MenuItemRepository
+import com.televantou.everylifetasks.data.menuItems.MenuItemRepository
 import com.televantou.everylifetasks.utils.*
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
